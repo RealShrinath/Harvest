@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://0witdvhysiu"]
+
+[ext_resource type="Script" uid="uid://cls6ntjgtx6ea" path="res://Scripts/movement.gd" id="1_v1qfn"]
+[ext_resource type="Texture2D" uid="uid://bin6fngwnmsaf" path="res://Player/Characters/Front.png" id="2_hh5uf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7d3rj"]
+size = Vector2(27, 40)
+
+[node name="Player" type="Node2D" unique_id=1507669074]
+
+[node name="Follow" type="Camera2D" parent="." unique_id=1684315924]
+zoom = Vector2(1.1, 1.1)
+
+[node name="John" type="CharacterBody2D" parent="." unique_id=1055209345]
+script = ExtResource("1_v1qfn")
+
+[node name="My Guy" type="Sprite2D" parent="John" unique_id=3689410]
+texture = ExtResource("2_hh5uf")
+
+[node name="Hitbox" type="CollisionShape2D" parent="John" unique_id=433647628]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_7d3rj")
