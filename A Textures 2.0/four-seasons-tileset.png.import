@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnmr70mubbgvi"
-path="res://.godot/imported/Coin.png-be43f3ccee020f9704fcfab1e266898a.ctex"
+uid="uid://qtcptw701xqf"
+path="res://.godot/imported/four-seasons-tileset.png-6c738c318b041f49b70e0a2b6c512158.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/Coin.png"
-dest_files=["res://.godot/imported/Coin.png-be43f3ccee020f9704fcfab1e266898a.ctex"]
+source_file="res://A Textures 2.0/four-seasons-tileset.png"
+dest_files=["res://.godot/imported/four-seasons-tileset.png-6c738c318b041f49b70e0a2b6c512158.ctex"]
 
 [params]
 
